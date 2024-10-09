@@ -1,6 +1,6 @@
-﻿using System;
+﻿using MessengerServer.Logger;
+using System;
 using System.Threading;
-
 
 namespace Server
 {
@@ -8,12 +8,7 @@ namespace Server
     {
         public static void Main()
         {
-
-        }
-
-        public static void awaitInteraction()
-        {
-
+            Logger.Instance.StartUp();
         }
     }
 }

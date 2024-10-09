@@ -5,11 +5,17 @@ VisualStudioVersion = 17.10.34916.146
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessengerServer", "MessengerServer.csproj", "{2FB654C5-F0BE-49B3-B8A7-A7767ABF641D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientToClientInteraction", "..\ClientToClientInteraction\ClientToClientInteraction.csproj", "{DC46438F-3D37-46A2-A379-D5A1A4E35295}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientToClientInteraction", "..\ClientToClientInteraction\ClientToClientInteraction.csproj", "{DC46438F-3D37-46A2-A379-D5A1A4E35295}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientSignIn", "..\ClientSignIn\ClientSignIn.csproj", "{F8F0ADD0-67D7-45BE-A779-E2DA124CD39F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientSignIn", "..\ClientSignIn\ClientSignIn.csproj", "{F8F0ADD0-67D7-45BE-A779-E2DA124CD39F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstTimeSignIn", "..\FirstTimeSignIn\FirstTimeSignIn.csproj", "{96497158-8382-416F-9D31-DFFBF608C907}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstTimeSignIn", "..\FirstTimeSignIn\FirstTimeSignIn.csproj", "{96497158-8382-416F-9D31-DFFBF608C907}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLInteraction", "..\SQLInteraction\SQLInteraction.csproj", "{1AA7DCF1-7AEA-4F92-926E-3E624D5A6D09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkingClient", "..\NetworkingClient\NetworkingClient.csproj", "{EB859A83-8626-49E2-9E5A-4DCB0A186971}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetworkingServer", "..\NetworkingServer\NetworkingServer.csproj", "{9D5909CD-4CF1-4FEE-8585-EE58CB41C5CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +39,18 @@ Global
 		{96497158-8382-416F-9D31-DFFBF608C907}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96497158-8382-416F-9D31-DFFBF608C907}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96497158-8382-416F-9D31-DFFBF608C907}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA7DCF1-7AEA-4F92-926E-3E624D5A6D09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA7DCF1-7AEA-4F92-926E-3E624D5A6D09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA7DCF1-7AEA-4F92-926E-3E624D5A6D09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA7DCF1-7AEA-4F92-926E-3E624D5A6D09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB859A83-8626-49E2-9E5A-4DCB0A186971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB859A83-8626-49E2-9E5A-4DCB0A186971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB859A83-8626-49E2-9E5A-4DCB0A186971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB859A83-8626-49E2-9E5A-4DCB0A186971}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D5909CD-4CF1-4FEE-8585-EE58CB41C5CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D5909CD-4CF1-4FEE-8585-EE58CB41C5CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D5909CD-4CF1-4FEE-8585-EE58CB41C5CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D5909CD-4CF1-4FEE-8585-EE58CB41C5CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
